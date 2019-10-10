@@ -6,11 +6,11 @@ Project Proposal
 [evaluate.HU]
 
 Syed Anus Ali (04928)
-Anand Kumar (ak05173)
+Anand Kumar (ID)
 Salman Younus (ID)
 
 Submitted to
-Dr. Ayaz H. Khan
+Dr. Ayaz ul Khan
 
  
 Habib University, Karachi.
@@ -19,6 +19,9 @@ Habib University, Karachi.
 Introduction
 The current course evaluation platform at Habib University is tedious and unreasonably complex. Currently, it forces the students to go through a list of courses offered in that semester and fill in the evaluations for the courses they are enrolled in that semester. 
 The objective of our project is to allow the students to effortlessly complete their course and professor evaluations. We aim to do this by developing a web-based platform. This platform will serve two purposes for the students; allow them to complete their course/professor evaluations and read anonymized reviews of past courses/professors.
+The platform will maintain a database that will store the semester-wise enrollment data of the students i.e the courses each student is enrolled in the ongoing and previous semesters. 
+There will be one tab in which, once the evaluations period has begun, the evaluation forms for courses a student is enrolled in the current semester will show up as well as evaluation forms for the professor teaching that course. The student will be able to edit those forms, after he/she has filled them, till the deadline. 
+In the second tab, there will be a search bar provided to search for courses or professors, and read their anonymized evaluations from previous semesters.
 
 Modules of the System
 Note: [Mention different functionalities/modules that you will address to develop ERD of your system. Give detailed description of each module.]
