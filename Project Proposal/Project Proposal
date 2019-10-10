@@ -6,13 +6,12 @@ Project Proposal
 [evaluate.HU]
 
 Syed Anus Ali (04928)
-Anand Kumar (ID)
-Salman Younus (ID)
+Anand Kumar (ak05173)
+Salman Younus (sy04351)
 
 Submitted to
 Dr. Ayaz ul Khan
 
- 
 Habib University, Karachi.
 
 
@@ -23,13 +22,16 @@ The platform will maintain a database that will store the semester-wise enrollme
 There will be one tab in which, once the evaluations period has begun, the evaluation forms for courses a student is enrolled in the current semester will show up as well as evaluation forms for the professor teaching that course. The student will be able to edit those forms, after he/she has filled them, till the deadline. 
 In the second tab, there will be a search bar provided to search for courses or professors, and read their anonymized evaluations from previous semesters.
 
-Modules of the System
+Modules of the System:
 Note: [Mention different functionalities/modules that you will address to develop ERD of your system. Give detailed description of each module.]
 
-Front-end Development
+1.	To create a profile management system for faculty, which will give an overview of the past experience of instructors with a particular course or in general.
+2.	To create a student and faculty registration system.
+3.	To create a system to provide reviews, to faculty and courses, by students which can be public or anonymous.
+4.	To generate top review results of the courses when a relevant search query is entered.
+5.	To allow students and professors to view previously filled evaluation forms.
 
+Tools & Technologies:
 
-
-Tools & Technologies
 Back-end: SQL Server
 Front-end: HTML5, CSS and JavaScript.
