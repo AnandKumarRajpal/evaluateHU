@@ -6,15 +6,17 @@ Project Proposal
 [evaluate.HU]
 
 Syed Anus Ali (04928)
-Anand Kumar (ak05173)
-Salman Younus (sy04351)
+Anand Kumar (ID)
+Salman Younus (ID)
 
 Submitted to
-Dr. Ayaz H. Khan
+Dr. Ayaz ul Khan
 
+ 
 Habib University, Karachi.
 
-Introduction
+
+Introduction:
 The current course evaluation platform at Habib University is tedious and unreasonably complex. Currently, it forces the students to go through a list of courses offered in that semester and fill in the evaluations for the courses they are enrolled in that semester. 
 The objective of our project is to allow the students to effortlessly complete their course and professor evaluations. We aim to do this by developing a web-based platform. This platform will serve two purposes for the students; allow them to complete their course/professor evaluations and read anonymized reviews of past courses/professors.
 The platform will maintain a database that will store the semester-wise enrollment data of the students i.e the courses each student is enrolled in the ongoing and previous semesters. 
@@ -24,13 +26,12 @@ In the second tab, there will be a search bar provided to search for courses or 
 Modules of the System:
 Note: [Mention different functionalities/modules that you will address to develop ERD of your system. Give detailed description of each module.]
 
-1.	To create a profile management system for faculty, which will give an overview of the past experience of instructors with a particular course or in general.
-2.	To create a student and faculty registration system.
-3.	To create a system to provide reviews, to faculty and courses, by students which can be public or anonymous.
-4.	To generate top review results of the courses when a relevant search query is entered.
-5.	To allow students and professors to view previously filled evaluation forms.
+Front-end Development:
+i) Develop a course and instructor evaluation dynamic website which will facilitate students in a course evaluation period.
+ii) A page to view specific profile for a course with all of it's past offering mentioned and the individual & avergae reviews for it.
+ii) Instructors profile with student's reviews.
 
-Tools & Technologies:
 
+Tools & Technologies
 Back-end: SQL Server
 Front-end: HTML5, CSS and JavaScript.
