@@ -29,11 +29,11 @@ Front-end Development:
 3. Instructors profile with student's reviews.
 
 Database Systems:
-1.	To create a profile management system for faculty, which will give an overview of the past experience of instructors with a particular course or in general.
-2.	To create a student and faculty registration system.
-3.	To create a system to provide reviews, to faculty and courses, by students which can be public or anonymous.
-4.	To generate top review results of the courses when a relevant search query is entered.
-5.	To allow students and professors to view previously filled evaluation forms.
+1. To create a profile management system for faculty, which will give an overview of the past experience of instructors with a particular course or in general.
+2. To create a student and faculty registration system.
+3. To create a system to provide reviews, to faculty and courses, by students which can be public or anonymous.
+4. To generate top review results of the courses when a relevant search query is entered.
+5. To allow students and professors to view previously filled evaluation forms.
 
 Tools & Technologies:
 Back-end: SQL Server
