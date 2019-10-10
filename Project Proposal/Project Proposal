@@ -1,0 +1,32 @@
+CS355 Databases 
+Fall 2019
+Project Proposal
+
+
+[evaluate.HU]
+
+Syed Anus Ali (04928)
+Anand Kumar (ID)
+Salman Younus (ID)
+
+Submitted to
+Dr. Ayaz ul Khan
+
+ 
+Habib University, Karachi.
+
+
+Introduction
+The current course evaluation platform at Habib University is tedious and unreasonably complex. Currently, it forces the students to go through a list of courses offered in that semester and fill in the evaluations for the courses they are enrolled in that semester. 
+The objective of our project is to allow the students to effortlessly complete their course and professor evaluations. We aim to do this by developing a web-based platform. This platform will serve two purposes for the students; allow them to complete their course/professor evaluations and read anonymized reviews of past courses/professors.
+
+Modules of the System
+Note: [Mention different functionalities/modules that you will address to develop ERD of your system. Give detailed description of each module.]
+
+Front-end Development
+
+
+
+Tools & Technologies
+Back-end: SQL Server
+Front-end: HTML5, CSS and JavaScript.
