@@ -2,19 +2,16 @@ CS355 Databases
 Fall 2019
 Project Proposal
 
-
 [evaluate.HU]
 
-Syed Anus Ali (04928)
-Anand Kumar (ID)
-Salman Younus (ID)
+Syed Anus Ali (aa04928)
+Anand Kumar (ak05173)
+Salman Younus (sy04351)
 
 Submitted to
-Dr. Ayaz ul Khan
+Dr. Ayaz H. Khan
 
- 
 Habib University, Karachi.
-
 
 Introduction:
 The current course evaluation platform at Habib University is tedious and unreasonably complex. Currently, it forces the students to go through a list of courses offered in that semester and fill in the evaluations for the courses they are enrolled in that semester. 
@@ -27,11 +24,17 @@ Modules of the System:
 Note: [Mention different functionalities/modules that you will address to develop ERD of your system. Give detailed description of each module.]
 
 Front-end Development:
-i) Develop a course and instructor evaluation dynamic website which will facilitate students in a course evaluation period.
-ii) A page to view specific profile for a course with all of it's past offering mentioned and the individual & avergae reviews for it.
-ii) Instructors profile with student's reviews.
+1. Develop a course and instructor evaluation dynamic website which will facilitate students in a course evaluation period.
+2. A page to view specific profile for a course with all of it's past offering mentioned and the individual & avergae reviews for it.
+3. Instructors profile with student's reviews.
 
+Database Systems:
+1.	To create a profile management system for faculty, which will give an overview of the past experience of instructors with a particular course or in general.
+2.	To create a student and faculty registration system.
+3.	To create a system to provide reviews, to faculty and courses, by students which can be public or anonymous.
+4.	To generate top review results of the courses when a relevant search query is entered.
+5.	To allow students and professors to view previously filled evaluation forms.
 
-Tools & Technologies
+Tools & Technologies:
 Back-end: SQL Server
 Front-end: HTML5, CSS and JavaScript.
