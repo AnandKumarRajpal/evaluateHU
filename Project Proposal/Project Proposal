@@ -23,8 +23,22 @@ In the second tab, there will be a search bar provided to search for courses or 
 Modules of the System:
 Note: [Mention different functionalities/modules that you will address to develop ERD of your system. Give detailed description of each module.]
 
+
+
+Instructor's Comments: In addition to the problem statement and objectives of the project, you were also required to write the business scenario that can be used to draw the system's ERD and design the interfaces. So, you should include the complete business scenario with details of entities and its attributes, business processes, relationships, and constraints.
+
+
+
 Front-end Development:
+
 1. Develop a course and instructor evaluation dynamic website which will facilitate students in a course evaluation period.
+
+
+
+Instructor's Comments: Do you have website development experience? If not then it is better to develop the desktop application in C# as you did in lab.
+
+
+
 2. A page to view specific profile for a course with all of it's past offering mentioned and the individual & avergae reviews for it.
 3. Instructors profile with student's reviews.
 
