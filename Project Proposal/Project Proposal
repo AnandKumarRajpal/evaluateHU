@@ -20,6 +20,13 @@ The platform will maintain a database that will store the semester-wise enrollme
 There will be one tab in which, once the evaluations period has begun, the evaluation forms for courses a student is enrolled in the current semester will show up as well as evaluation forms for the professor teaching that course. The student will be able to edit those forms, after he/she has filled them, till the deadline. 
 In the second tab, there will be a search bar provided to search for courses or professors, and read their anonymized evaluations from previous semesters.
 
+Business Scenaro:
+Some of the primary features of the course evaluation database management system:
+•	The database stores the following information of students and instructors; ID, name and email. The database also stores the ID and name of each course.
+•	The database identifies each student by a unique student ID, each instructor by a unique faculty ID, each course by a unique course ID and each semester by a unique semester ID. 
+•	A student can be enrolled in many courses in a given semester, and a course can have many students enrolled in it, in a given semester. 
+•	An instructor can offer many courses and different sections of a course can be offered by many instructors.
+
 Modules of the System:
 Note: [Mention different functionalities/modules that you will address to develop ERD of your system. Give detailed description of each module.]
 
