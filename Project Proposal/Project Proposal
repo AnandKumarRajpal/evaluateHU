@@ -30,6 +30,8 @@ Modules of the System:
 •	Only the students enrolled in a course offered by a particular instructor can review the course.
 •	Students can review the instructor/course based on parameters such as the content of the course, its difficulty level, number of homework/assignments assigned, interactivity and assertiveness of the instructor.
 •	A student will only be allowed to fill the evaluation form for the course and the instructor within the evaluation period that will be set by the RO.
+•	The university administration will be able to access all or specific evaluations given by each student to an instructor or a course in a particular semester.
+•	A student can view anonymized evaluation result of the instructors.
 
 Instructor's Comments: In addition to the problem statement and objectives of the project, you were also required to write the business scenario that can be used to draw the system's ERD and design the interfaces. So, you should include the complete business scenario with details of entities and its attributes, business processes, relationships, and constraints.
 
