@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	
+	<h1>Name: <?php echo$row['Name']?></h1>
+	<h1>Major: <?php echo$row['Major'] ?></h1>
+    <h1>Minor: <?php echo$row['Minor'] ?></h1>
+	<h1>ID: <?php echo$row['Studentid'] ?></h1>
+	<div>
+		<?php 
+			$query = "select Courses.Title from Courses, CourseReviews, Students where Students.Studentid = CourseReviews.Student_ID and Courses.Courseid = CourseReviews.Course_ID and CourseReviews.Checked = 0 and Students.studentid = $id";
+			$result = mysqli_query($con, $query) or die(mysqli_error($con));
+		?>
+		<h1>Courses To be Reviewed:</h1>
+		<form method="post">
+				<select name="cou" class="form-control" name="course">
+				<?php while($row = mysqli_fetch_array($result))
+				{ ?>	
+				<option value="<?php echo$row['Title'];?>"><?php echo$row['Title']; ?></option>
+				<?php }	?>
+				</select>
+				<div class="form-group">
+				<button name="review_course" class="btn btn-primary btn-block" type="submit">Review</button>
+				</div>
+		</form>
+	</div>	
+	<div>
+		<?php
+			$query = "select instructors.Name from instructors, instructor_reviews, Students where Students.Studentid = instructor_reviews.Student_ID and instructors.Instructorid = instructor_reviews.Instructor_ID and instructor_reviews.Checked = 0 and Students.studentid = $id";
+			$result = mysqli_query($con, $query) or die(mysqli_error($con));
+		?>
+		<h1>Instructors To be Reviewed:</h1>
+		<form method="post">
+				<select name="ins" class="form-control" name="course">
+				<?php while($row = mysqli_fetch_array($result))
+				{ ?>	
+				<option value="<?php echo$row['Name'];?>"><?php echo$row['Name']; ?></option>
+				<?php }	?>
+				</select>
+				<div class="form-group">
+				<button name="review_instructor" class="btn btn-primary btn-block" type="submit">Review</button>
+				</div>
+		</form>
+	</div>	
+		
+
+
+</html>
